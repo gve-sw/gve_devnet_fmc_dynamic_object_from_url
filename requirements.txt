@@ -1,0 +1,6 @@
+APScheduler
+python-dotenv
+PyYAML
+requests
+schema
+urllib3

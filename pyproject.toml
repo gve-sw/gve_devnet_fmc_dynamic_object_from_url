@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gve-devnet-fmc-dynamic-object-from-url"
+version = "0.1.0"
+description = "Update FMC dynamic object lists from URL containing addresses"
+authors = ["Matt Schmitz <mattsc@cisco.com>"]
+license = "Cisco Sample Code License, Version 1.1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+python-dotenv = "^1.0.1"
+pyyaml = "^6.0.1"
+schema = "^0.7.5"
+apscheduler = "^3.10.4"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

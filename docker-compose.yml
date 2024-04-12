@@ -1,0 +1,13 @@
+version: "3.5"
+
+services:
+  gve_devnet_fmc_dynamic_object_from_url:
+    image: ghcr.io/gve-sw/gve_devnet_fmc_dynamic_object_from_url:latest
+    container_name: gve_devnet_fmc_dynamic_object_from_url
+    environment:
+      - FMC_ADDRESS=
+      - FMC_USERNAME=
+      - FMC_PASSWORD=
+    volumes:
+      - config.yaml:/app/config.yaml
+    restart: "always"

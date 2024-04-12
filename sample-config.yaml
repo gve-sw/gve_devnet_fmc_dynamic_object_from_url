@@ -1,0 +1,8 @@
+schedule:
+  enable: true
+  interval: 5
+mapping:
+  dynamic_object_list_01: 
+    url: http://some_url.local/iplist.txt
+  dynamic_object_list_02:
+    url: http://some_other_url.local/iplist.txt
